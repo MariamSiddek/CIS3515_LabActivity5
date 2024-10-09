@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity() {
                 nameTextView.text = ""
             }
         }
+        //
 
         findViewById<View>(R.id.deleteButton).setOnClickListener {
             // Check if there is at least one item to delete
